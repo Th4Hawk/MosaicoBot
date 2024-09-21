@@ -20,3 +20,5 @@
 *.exe
 *.db
 *.development.json
+
+squarecloud.config
