@@ -16,7 +16,7 @@ new Command({
 
         const { member, guild } = interaction;
 
-        const role = guild.roles.cache.get("1284974452450398218");
+        const role = guild.roles.cache.get("1290764900930555994");
         if (!role) {
             interaction.reply({ephemeral: true, content: "Cargo não configurado."});
             return;

@@ -14,7 +14,7 @@ new Responder({
             interaction.reply({ephemeral: true, content: "Codigo invalido ou expirado"});
             return;
         }
-        const role: any = guild.roles.cache.get("1284974452450398218");
+        const role: any = guild.roles.cache.get("1290764900930555994");
         members.delete(member.id);
 
         await member.roles.add(role);

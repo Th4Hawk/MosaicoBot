@@ -10,7 +10,7 @@ new Responder({
     async run(interaction) {
         const { member, guild } = interaction;
 
-        const role = guild.roles.cache.get("1284974452450398218");
+        const role = guild.roles.cache.get("1290764900930555994");
         if (!role) {
             interaction.update({content: "Cargo não configurado.", embeds: [], components: []});
             return;
